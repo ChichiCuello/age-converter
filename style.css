@@ -1,0 +1,71 @@
+*{
+    background-color: rgb(255, 215, 145);
+    font-size:35px;
+    color: rgb(41, 31, 9);
+    font-family: 'Dongle', sans-serif;
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Dongle', sans-serif;
+    color:hsl(36, 76%, 35%);
+    margin-bottom: 0px;
+}
+h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input{
+    border-style: solid;
+    border-radius: 6px;
+    border-color:hsl(36, 76%, 35%); 
+    margin-right: 20px;
+    padding-left: 14px;
+
+}
+#age{
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 25px;
+}
+button{
+    border-color: rgb(41, 31, 9);
+    border-radius: 10px;
+    padding: 8px 20px ;
+    background-color:rgb(41, 31, 9) ;
+    color:rgb(255, 215, 145) ;
+}
+
+@media screen and (max-width: 812px) {
+* {
+    font-size: 28px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    line-height: 35px;
+}
+button{
+    margin-top: 25px;
+    align-self: center;
+}
+#age{ 
+    font-size: 28px;
+
+}
+   
+
+
+}
