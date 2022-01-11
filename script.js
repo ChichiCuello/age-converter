@@ -40,7 +40,7 @@ if (dateInput.value === ""){
         var koreanAge = intAge + 1
     } else{
         var intAge = year - yearB -1 
-        var koreanAge = year - yearB + 2
+        var koreanAge = year - yearB + 1
     };
 document.getElementById('age').innerHTML = 'Your international age is: ' + intAge +"<br/>"+ 'Your korean age is: ' + koreanAge;
 
